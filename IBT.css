@@ -1,0 +1,325 @@
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+body {
+	background-color: #b3acab;
+	margin: 10px;
+	padding: 10px;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: #e64c1e;
+	padding: 10px;
+	}
+	p {
+		font-family: sans-serif;
+		font-size: 16px;
+		margin-left: 10px; 
+		
+	}
+	
+	h2 {
+	font-family: sans-serif;
+	color: black;
+	padding: 10px;
+	}
+
+	
+text {
+	color: red;
+	font-family: sans-serif;
+}
+
+table {
+	
+				border: 2px red;
+				border-collapse: collapse;
+				width: 95%;
+				margin-left: 10px;
+				margin-top: 30px;
+}
+				
+			
+			th, td {
+				border: 1px solid blue;	
+				padding: 10px;
+				text-align: center;
+				font-family: sans-serif;
+				font-size: 14px;
+			}
+
+			
+			
+img {
+	padding: 10px;
+	
+	
+}
+
+#attention {
+	
+	color: red;
+	font-size: 20px;
+	font-style: bold;
+}
+
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+
+}
+
+/* rts box */
+.rts {
+  position: absolute;
+  bottom: 24%;
+  left: 35%;
+
+}
+
+/* irm */
+.irm {
+  position: absolute;
+  top: 18%;
+  left: 40%;
+
+}
+
+/* TR */
+.tax-return {
+  position: absolute;
+  top: 42%;
+  left: 24%;
+
+}
+
+/* w7final */
+.w7final {
+  position: absolute;
+  bottom: 24%;
+  right: 33%;
+
+}
+
+/* Centered text */
+.w7edit {
+  position: absolute;
+  bottom: 22%;
+  left: 8%;
+
+}
+
+.ids {
+  position: absolute;
+  top: 43%;
+  left: 5%;
+
+}
+
+.tax-returnfinal {
+  position: absolute;
+  top: 44%;
+  right: 23%;
+
+}
+
+.prelim {
+  position: absolute;
+  top: 27%;
+  left: 12%;
+
+}
+
+.w7input {
+  position: absolute;
+  bottom: 30%;
+  left: 29%;
+
+}
+
+.dupl {
+  position: absolute;
+  top: 24%;
+  left: 46%;
+
+}
+
+.temp {
+  position: absolute;
+  top: 44%;
+  right: 33%;
+}
+
+.idrs {
+  position: absolute;
+  bottom: 29%;
+  right: 20%;
+
+}
+
+.final {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+
+}
+
+/* W-7 Edit */	
+
+.form {
+	position: absolute;
+	top: 2%;
+	left: 17%;
+}
+
+.apltype {
+	position: absolute;
+	top: 8%;
+	right: 25%;
+}	
+
+.reason {
+	position: absolute;
+	top: 14%;
+	left: 15%;
+}
+
+.uscitres {
+	position: absolute;
+	top: 24%;
+	left: 50%;
+}
+
+.nameA {
+	position: absolute;
+	top: 36%;
+	left: 28%;
+}
+
+.nameB {
+	position: absolute;
+	top: 39%;
+	left: 28%;
+}
+
+.mailing {
+	position: absolute;
+	top: 42%;
+	left: 28%;
+}
+
+.foreign {
+	position: absolute;
+	bottom: 50%;
+	left: 28%;
+}
+
+.birth {
+	position: absolute;
+	bottom: 43%;
+	left: 28%;
+}
+
+.gender {
+	position: absolute;
+	bottom: 43%;
+	right: 15%;
+}
+
+.coc {
+	position: absolute;
+	bottom: 40%;
+	left: 28%;
+}
+
+.doe {
+	position: absolute;
+	bottom: 37%;
+	right: 15%;
+}
+
+.docs {
+	position: absolute;
+	bottom: 35%;
+	left: 28%;
+}
+	
+.tin {
+	position: absolute;
+	bottom: 30%;
+	left: 43%;
+}
+
+.signature {
+	position: absolute;
+	bottom: 13%;
+	left: 28%;
+}
+
+.poa {
+	position: absolute;
+	bottom: 10%;
+	right: 15%;
+}
+
+
+
+	
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 170px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+footer {
+         text-align: center;
+         padding: 20px;
+		margin-top: 100px;
+}
+
